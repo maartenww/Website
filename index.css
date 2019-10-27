@@ -1,0 +1,55 @@
+
+
+@font-face {
+    font-family: 'Arcade';
+    src: url('fonts/AXR ArcadeMachine.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    background: url(images/image1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+
+header .header-text {
+    display: block;
+    position: relative;
+    font-family: 'Arcade';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 96pt;
+    color: #dfe2ed;
+    text-shadow: 5px 5px 5px #a7bfeb;
+    margin-bottom: -85px;
+    margin-top: -85px;
+    text-align: center;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+#header-text-1 {
+    margin-top: 250px;  
+}
+
+#header-text-2 {
+    font-size: 110pt;
+    margin-bottom: -105px;
+}
+
+#header-text-3 {
+    font-size: 120pt;
+}
+
+header .header-container {
+    display: block;
+    height: 400px;
+}
+
